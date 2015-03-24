@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #COLOUR-VARIANTS
+\*------------------------------------*/
+
+.color-variant(@bg-color: #555, @lt-percent: 10%, @lter-percent: 15%, @dk-percent: 10%, @dker-percent: 15%) {
+  background-color: @bg-color;
+  &.lt,
+  .lt {
+    .color-schema(@bg-color, -@lt-percent, -2.5%);
+  }
+  &.lter,
+  .lter {
+    .color-schema(@bg-color, -@lter-percent, -5%);
+  }
+  &.dk,
+  .dk {
+    .color-schema(@bg-color, @dk-percent, 2.5%);
+  }
+  &.dker,
+  .dker {
+    .color-schema(@bg-color, @dker-percent, 5%);
+  }
+  &.bg,
+  .bg {
+    background-color: @bg-color;
+  }
+}
+
+.color-schema(@bg-color: #555, @percent: 15%, @sat-percent) {
+  background-color: saturate(darken(@bg-color, @percent), @sat-percent);
+}
