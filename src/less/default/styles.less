@@ -1,0 +1,80 @@
+/* IS0502 Assignment Styles */
+
+/**
+ * CONTENTS
+ *
+ * GENERIC
+ * Normalize............Better everything.
+ * Font-awesome.........Better default `box-sizing`.
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ *
+ * BASE
+ * Main.................All primary styles
+ *
+ * OBJECTS
+ *
+ * COMPONENTS
+ *
+ * TRUMPS
+ */
+
+/*------------------------------------*\
+    #GENERIC
+\*------------------------------------*/
+
+@import (less) '../../bower_components/normalize-css/normalize.css';
+
+
+
+
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
+
+@import 'variables.less'; /* Site Specific Variables */
+
+
+
+
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+@import 'mixins/grid.less';
+@import 'mixins/colour-variants.less';
+@import 'mixins/font-variants.less';
+@import 'mixins/clearfix.less';
+
+
+
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+
+@import 'grid.less';
+@import 'utilities.less';
+@import 'typography.less';
+@import 'forms.less';
+@import 'tables.less';
+
+
+
+
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+
+@import 'components/sidebar.less';
+@import 'components/timeline.less';
+@import 'components/nav.less';
+@import 'components/buttons.less';
+@import 'components/date-range.less';
+@import 'components/modal.less';
+@import 'components/report.less';

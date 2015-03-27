@@ -1,4 +1,4 @@
-/* IS0502 Assignment Styles */
+/* IS0502 Assignment Alternate Styles */
 /**
  * CONTENTS
  *
@@ -1561,7 +1561,7 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Museo Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.25 px;
 }
@@ -1611,9 +1611,6 @@ label {
 /*------------------------------------*\
     #TABLES
 \*------------------------------------*/
-thead {
-  text-align: left;
-}
 .table {
   width: 100%;
   max-width: 100%;
@@ -1642,7 +1639,7 @@ thead {
   left: 0;
   bottom: 0;
   position: absolute;
-  background: #2ecc71;
+  background: #d9534f;
 }
 .sidebar .sidebar-header {
   padding: 10px 15px;
@@ -1661,7 +1658,7 @@ thead {
   color: #ffffff;
 }
 .sidebar .sidebar-nav ul.nav a:hover {
-  background: #54d98c;
+  background: #c9302c;
 }
 /*------------------------------------*\
     #TIMELINE
@@ -1808,9 +1805,9 @@ thead {
 /*------------------------------------*\
     #SIDEBAR
 \*------------------------------------*/
-.report > p {
+.report {
   line-height: 1.6;
   text-align: justify;
   margin-bottom: 20px;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=alternatestyles.css.map */

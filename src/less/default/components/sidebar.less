@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #SIDEBAR
+\*------------------------------------*/
+
+
+.sidebar {
+  width:20%;
+  top:0;
+  left:0;
+  bottom:0;
+  position:absolute;
+  background: @brand-success;
+
+
+  .sidebar-header {
+    padding:10px 15px;
+
+    h1 {
+      color: #ffffff;
+    }
+  }
+
+  .sidebar-nav {
+    ul.nav {
+      li {
+        display: block;
+        position: relative;
+      }
+      a {
+        font-weight: normal;
+        text-transform: none;
+        display: block;
+        color: #ffffff;
+        &:hover {
+          background:lighten(@brand-success, 10%);
+        }
+      }
+    }
+  }
+}

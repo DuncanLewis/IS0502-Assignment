@@ -1,0 +1,3 @@
+AuthName "restricted stuff"
+AuthType Basic
+AuthUserFile /home/unn_w13007828/userinfo

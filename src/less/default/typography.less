@@ -1,0 +1,66 @@
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+html {
+  font-size: 10px;
+}
+
+//== Body Text
+//
+//##
+
+body {
+  font-family: @font-family-sans-serif;
+  font-size: @font-size;
+  line-height: @line-height;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.leading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+
+//== Contextual Colours
+//
+//## Define the grey and other colours used
+
+.text-muted {
+  color: @text-muted;
+}
+
+
+
+//== List styling
+//
+//## Define list styles
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+
+
+//== Link Styling
+//
+//##
+
+a {
+  color: @link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: @link-hover-decoration;
+  }
+}
