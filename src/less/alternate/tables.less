@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #TABLES
+\*------------------------------------*/
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: @line-height;
+    // Cells
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                padding: 10px;
+                line-height: @line-height;
+                vertical-align: top;
+                border-top: 1px solid @border-color;
+            }
+        }
+    }
+}

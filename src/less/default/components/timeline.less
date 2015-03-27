@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    #TIMELINE
+\*------------------------------------*/
+
+// streamline
+.streamline {
+  position: relative;
+  border-color: @border-color;
+  padding-top:14px;
+  .sl-item:after {
+    content: '';
+    position: absolute;
+    background-color: @brand-dark;
+    border-color: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 9px;
+    height: 9px;
+    margin-left: -6px;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.sl-item {
+  border-color: @border-color;
+  position: relative;
+  padding-bottom: 1px;
+  .clearfix();
+  &:after {
+    top: 4px;
+    bottom: auto;
+  }
+  &.b-l {
+    margin-left: -1px;
+  }
+}
